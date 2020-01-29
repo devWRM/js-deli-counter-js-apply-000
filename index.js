@@ -20,7 +20,7 @@ function nowServing(inLine) {
 		// Check for katzDeliLine for empty array
 	if (inLine.length == 0) {
 
-		var message = "There's nobody waiting to be served.";
+		var message = "There is nobody waiting to be served.";
 		return message;
 
 
