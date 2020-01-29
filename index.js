@@ -56,7 +56,7 @@ function currentLine(inLine) {
 
 	for (var i = 0; i < inLine.length; i++) {
 
-		var iList = (i + 1) + ". " + inLine[i];
+		var iList = i + 1 + ". " + inLine[i];
 		listOrder.push(iList);
 	}
 
