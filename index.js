@@ -31,7 +31,7 @@ function nowServing(inLine) {
 			// Delete inline[0] from katzDeliLine
 		var current = inLine.shift();
 
-		var message = "Currently serving " + current;
+		var message = "Currently serving " + current + ".";
 
 		return message;
 
