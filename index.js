@@ -59,7 +59,7 @@ function currentLine(inLine) {
 		var iList = " " + (i + 1) + ". " + inLine[i];
 		listOrder.push(iList);
 	}
-	
+
 	return (listIntro + listOrder);
 }
 
