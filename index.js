@@ -13,7 +13,7 @@ function takeANumber(inLine, nextInLine) {
 	return welcome;
 }
 
-//function nowServing(inLine) **How to use "typeof" page 269**
+//function nowServing(inLine)
 
 function nowServing(inLine) {
 
@@ -40,3 +40,27 @@ function nowServing(inLine) {
 }
 
 nowServing(katzDeliLine);
+
+//function currentLine(inLine)
+
+
+function currentLine(inLine) {
+
+	if (inLine.length == 0) {
+		var message = "The line is currently empty.";
+		return message;
+	}
+
+	var listIntro = "The line order is currently: ";
+	var listOrder = [];
+
+	for (var i = 0; i < inLine.length; i++) {
+
+		var iList = " " + (i + 1) + ". " + inLine[i];
+		listOrder.push(iList);
+	}
+	
+	return (listIntro + listOrder);
+}
+
+currentLine(katzDeliLine);
